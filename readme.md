@@ -1,0 +1,1 @@
+```pip install git+https://github.com/Slenderman00/east-tester-scpi.git#egg=eastTesterScpi```
