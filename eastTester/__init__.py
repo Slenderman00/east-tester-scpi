@@ -300,6 +300,9 @@ class eastTester:
 
     def current_high(self, current):
         return self.write('CURR:HIGH', current)
+    
+    def resi_cr(self, resistance):
+        return self.write('RESI:CR', resistance)
 
     def power_on(self, power):
         return self.write('POWE:ON', power)
